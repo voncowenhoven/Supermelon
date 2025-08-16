@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SMLocalizerEnglish",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SMLocalizerEnglish",
+  "parent":{
+    "name":"Localizer",
+    "path":"folders/Scripts/Localizer.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,36 @@
+event_inherited();
+
+var key_left = keyboard_check(vk_left);
+var key_right = keyboard_check(vk_right);
+var key_up = keyboard_check(vk_up);
+var key_down = keyboard_check(vk_down);
+var attack = keyboard_check_pressed(ord("Z"));
+
+moveH = key_right - key_left;
+moveV = key_down - key_up;
+
+if (state.name == "knockback") {
+	state.update(state, self);
+	return;
+}
+
+if (moveH != 0) {
+	state = StateMove();
+} 
+
+if (moveV != 0) {
+	state = StateMove();
+} 
+
+if (attack) {
+    attack_execute(selectedSlot, self);
+}
+
+//Normalizes vector
+//Debating on this, makes movement feel sluggish
+//var totalSpeed = hsp * hsp + vsp * vsp;
+//if (totalSpeed > maxVsp * maxHsp) {
+//    var dir = point_direction(0,0,hsp,vsp);
+//    hsp = lengthdir_x(maxHsp, dir);
+//    vsp = lengthdir_y(maxVsp, dir);
+//}

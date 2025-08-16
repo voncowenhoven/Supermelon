@@ -1,0 +1,9 @@
+*.resource_order
+notes/
+options/
+
+
+# GMLive files
+*GMLive*
+*obj_gmlive*
+

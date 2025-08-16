@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"StateMove",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"StateMove",
+  "parent":{
+    "name":"States",
+    "path":"folders/Scripts/States.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"StateLookForPlayers",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"StateLookForPlayers",
+  "parent":{
+    "name":"Monster",
+    "path":"folders/Scripts/States/Monster.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

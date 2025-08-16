@@ -1,0 +1,1 @@
+camera_track_objects(oLightingController, oPlayerProtagonist);

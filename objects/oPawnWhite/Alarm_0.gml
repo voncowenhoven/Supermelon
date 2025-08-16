@@ -1,0 +1,1 @@
+projectile_fire(oProjectile, self);
