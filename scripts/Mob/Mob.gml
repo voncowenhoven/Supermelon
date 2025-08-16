@@ -9,7 +9,7 @@ function Mob(_maxHp, _maxSp, _armorClass, _mobId, _team) constructor {
 	team = _team;
 }
 
-// hmm
+// 
 
 enum MobID {
 	JOHN,
