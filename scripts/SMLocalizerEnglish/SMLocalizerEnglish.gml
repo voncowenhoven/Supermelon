@@ -2,9 +2,18 @@ global.SMLocEnglish = {
 	"game.productname" : "Supermelon: War In Paradise",
 	
 	#region Players
-	"players.protagonist" : "Protagonist",
-	"players.protagonist_name" : "Vannamelon",
+	"players.protag.classname" : "Protagonist",
+	"players.shepherdess.classname" : "Shepherdess",
+	"players.supermelon.classname" : "Supermelon",
+	"players.slinger.classname" : "Slinger",
+	
+	"players.protagonist.name" : "Vannamelon",
+	"players.shepherdess.name" : "Flutterchan",
+	"players.supermelon.name" : "John Supermelon",
+	"players.slinger.name" : "Isabelle",
+	
 	"players.protagonist_attack0" : "Excalifruit",
+	"players.health" : "Health",
 	#endregion
 	
 	#region Monsters

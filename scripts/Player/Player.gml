@@ -25,7 +25,7 @@ function PlayerProtagonist() : Player(125, 200, ArmorClass.GOOD, MobID.PROTAG, 0
 	//															  );}); 		
 																  
 	loadout[0] = new Attack(loc_getstring("players.protagonist_attack0"),   // Name
-							0.25, // Cooldown (seconds)
+							0.7, // Cooldown (seconds)
 							
 							// Attack
 							function(_owner) { attack_projectile_generic(_owner, 5, infinity, _owner.direction, 8

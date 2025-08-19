@@ -6,3 +6,5 @@ maxVsp = attrs.maxSp;
 accel = 0.20;
 
 state = StateIdle();
+
+stats = instance_create_layer(20, 680, "PlayerGUI", oGUIPlayerStats, {playerHp : attrs.hp, playerSelectedWeapon : selectedSlot});

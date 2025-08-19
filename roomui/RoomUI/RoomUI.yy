@@ -2,6 +2,11 @@
   "$GMRoomUI":"",
   "%Name":"RoomUI",
   "children":[
+    {"$GMRUIFolder":"","%Name":"GameGUI","children":[
+        {"$GMRUILayer":"v1","%Name":"PlayerGUI","alignItems":2,"children":[
+            {"$GMRFlexPanel":"","%Name":"PlayerStats","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"PlayerStats","nodeColour":4290245192,"positionLeft":{"unit":1,"value":0.0,},"positionTop":{"unit":1,"value":0.0,},"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+          ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"PlayerGUI","nodeColour":4294068456,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"locked":false,"name":"GameGUI","nodeColour":4282970826,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
     {"$GMRUIFolder":"","%Name":"MainMenu","children":[
         {"$GMRUILayer":"v1","%Name":"MainMenu_Buttons","alignItems":2,"children":[
             {"$GMRFlexPanel":"","%Name":"Buttons","alignItems":2,"children":[

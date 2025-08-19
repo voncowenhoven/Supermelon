@@ -14,6 +14,8 @@ if (state.name == "knockback") {
 	return;
 }
 
+
+
 if (moveH != 0) {
 	state = StateMove();
 } 
@@ -26,11 +28,6 @@ if (attack) {
     attack_execute(selectedSlot, self);
 }
 
-//Normalizes vector
-//Debating on this, makes movement feel sluggish
-//var totalSpeed = hsp * hsp + vsp * vsp;
-//if (totalSpeed > maxVsp * maxHsp) {
-//    var dir = point_direction(0,0,hsp,vsp);
-//    hsp = lengthdir_x(maxHsp, dir);
-//    vsp = lengthdir_y(maxVsp, dir);
-//}
+stats.playerHp = attrs.hp;
+stats.playerSelectedWeapon = selectedSlot;
+
