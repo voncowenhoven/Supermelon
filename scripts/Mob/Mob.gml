@@ -36,8 +36,10 @@ enum ArmorClass {
 	
 }
 
-enum MobFlags {
-	F_HASMELEE = -1
+enum Flags {
+	M_HASMELEE = 100,
+	
+	P_DONT_EXPIRE_ON_HIT = 200,
 }
 
 // mob functions
@@ -60,4 +62,12 @@ function mob_damage(mob, dmg) {
 function mob_kill(mob) {
 	// TODO: onDeath callback
 	instance_destroy(mob);
+}
+
+function has_flag(flag) {
+	if (array_contains(attrs.flags, flag)) {
+		return true;
+	}
+	
+	return false;
 }

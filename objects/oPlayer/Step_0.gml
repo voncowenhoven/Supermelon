@@ -4,7 +4,7 @@ var key_left = keyboard_check(vk_left);
 var key_right = keyboard_check(vk_right);
 var key_up = keyboard_check(vk_up);
 var key_down = keyboard_check(vk_down);
-var attack = keyboard_check_pressed(ord("Z"));
+var attack = keyboard_check(ord("Z"));
 
 moveH = key_right - key_left;
 moveV = key_down - key_up;

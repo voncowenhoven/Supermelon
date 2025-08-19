@@ -16,6 +16,6 @@ if (state.name == "idle") {
 }
 
 // Loadout slot 0 is always a melee attack for monsters
-if (place_meeting(x, y, target) and (array_contains(attrs.flags, MobFlags.F_HASMELEE)) == true) {
+if (place_meeting(x, y, target) and (has_flag(Flags.M_HASMELEE))) {
 	attack_execute(0, self);
 }

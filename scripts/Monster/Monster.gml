@@ -24,7 +24,7 @@ function monster_make_from_type(type) {
 
 
 function Pawn() : Monster(10, 100, ArmorClass.NONE, MobID.PAWN, Team.MONSTERS, 20) constructor {
-	flags[0] = MobFlags.F_HASMELEE;
+	flags[0] = Flags.M_HASMELEE;
 	
 	loadout[0] = new Attack(loc_getstring("monsters.attack0"),   // Name
 							0.25, // Cooldown (seconds)
