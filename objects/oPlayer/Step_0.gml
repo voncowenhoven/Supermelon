@@ -15,7 +15,6 @@ if (state.name == "knockback") {
 }
 
 
-
 if (moveH != 0) {
 	state = StateMove();
 } 
