@@ -7,9 +7,6 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_41FC39F8","path":"rooms/rInit/rInit.yy",},
-    {"name":"inst_48D67D9B","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_7367BFA3","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_124F4539","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_2589D5A2","path":"rooms/rInit/rInit.yy",},
   ],
   "isDnd":false,
@@ -36,10 +33,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":730,
+    "Height":768,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":1280,
+    "Width":1366,
   },
   "sequenceId":null,
   "views":[

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"tile_meeting",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"ThirdParty",
+    "path":"folders/ThirdParty.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

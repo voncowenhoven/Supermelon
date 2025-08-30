@@ -1,6 +1,7 @@
 enum PlayState {
 	MAINMENU,
 	PAWSED,
+	EDITOR,
 	GAME
 }
 
@@ -13,8 +14,11 @@ function playstate_change(state) {
 			layer_set_visible("MainMenu_Text", false);
 			layer_set_visible("MainMenu_Buttons", false);
 			global.playstate = PlayState.GAME;
-			
 	        break;
+		case PlayState.EDITOR:
+			layer_set_visible("MainMenu_Text", false);
+			layer_set_visible("MainMenu_Buttons", false);
+			global.playstate = PlayState.EDITOR;
 	    default:
 	        // code here
 	        break;

@@ -11,3 +11,11 @@ function menu_about() {
 function menu_newgame() {
 	MapManager.level_goto(global.mapinfo[0]);
 }
+
+function menu_editor_startquick() {
+	global.editorRoom = room_add();
+	room_set_width(global.editorRoom, 1366);
+	room_set_height(global.editorRoom, 768);
+	room_goto(global.editorRoom);
+	playstate_change(PlayState.EDITOR);
+} 

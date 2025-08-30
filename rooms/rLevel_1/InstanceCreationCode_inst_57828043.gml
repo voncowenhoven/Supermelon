@@ -1,1 +1,1 @@
-camera_track_objects(oLightingController, oPlayerProtagonist);
+camera_track_objects(oPlayerProtagonist);
