@@ -6,8 +6,8 @@
   "name":"oEditorPanel",
   "overriddenProperties":[],
   "parent":{
-    "name":"Editor",
-    "path":"folders/Objects/Editor.yy",
+    "name":"GUI",
+    "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

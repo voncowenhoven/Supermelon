@@ -24,3 +24,5 @@ if (tileIndexCurrent != 0) {
 
     draw_rectangle(startX, startY, endX, endY, true);
 }
+
+draw_set_alpha(1);

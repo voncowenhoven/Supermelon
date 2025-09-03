@@ -7,6 +7,14 @@ function menu_about() {
 	);	
 }
 
+function menu_about_soup() {
+	show_message_async("SOUP: Supermelon Editor of Unknown Pedigree (Version 1)"
+						+ "\n"
+						+ "\n A World Editor for Supermelon by David von Cowenhoven" 
+						
+	);	
+}
+
 // TODO
 function menu_newgame() {
 	MapManager.level_goto(global.mapinfo[0]);

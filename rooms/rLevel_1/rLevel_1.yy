@@ -17,7 +17,7 @@
   "isDnd":false,
   "layers":[
     {"$GMRTileLayer":"","%Name":"Tiles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":21,"SerialiseWidth":22,"TileCompressedData":[
-          -287,-2147483648,-5,1,-39,-2147483648,-5,0,-16,-2147483648,-8,0,-14,-2147483648,-11,0,-12,-2147483648,
+          -287,-2147483648,-5,1,-39,-2147483648,2,0,1,-3,0,-16,-2147483648,-8,0,-14,-2147483648,-11,0,-12,-2147483648,
           -7,0,-18,-2147483648,-3,0,-37,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tDummy","path":"tilesets/tDummy/tDummy.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[

@@ -13,5 +13,5 @@ if(sprite_index == noone){
 }
 
 onRelease = function(){
-    show_debug_message("Released");
+    //show_debug_message("Released");
 }
