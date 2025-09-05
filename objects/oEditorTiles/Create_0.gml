@@ -28,11 +28,17 @@ function editor_tile_paint_tile() {
             var ty = my + dy;
 
             tilemap_set(tilemap, tileIndexCurrent, tx, ty);
+                
         }
     }
 }
 
-// TODO: Modify these so that the tile just rotates four ways instead of having to manually do it with these
+function editor_tile_rotate_step() {
+	
+}
+
+/// @function editor_tile_rotate()
+/// @desc Rotates a tile 90/-90 degrees.
 function editor_tile_rotate() {
 	var layID = layer_get_id("Tiles");
 	var mapID = layer_tilemap_get_id(layID);
@@ -46,6 +52,8 @@ function editor_tile_rotate() {
 	tilemap_set(mapID, data, mx, my);
 }
 
+/// @function editor_tile_flip()
+/// @desc Flips/unflips a tile.
 function editor_tile_flip() {
 	var layID = layer_get_id("Tiles");
 	var mapID = layer_tilemap_get_id(layID);
@@ -59,6 +67,8 @@ function editor_tile_flip() {
 	tilemap_set(mapID, data, mx, my);
 }
 
+/// @function editor_tile_rotate()
+/// @desc Mirrors/unmirrors a tile.
 function editor_tile_mirror() {
 	var layID = layer_get_id("Tiles");
 	var mapID = layer_tilemap_get_id(layID);

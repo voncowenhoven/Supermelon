@@ -4,7 +4,6 @@
   "children":[
     {"$GMRUIFolder":"","%Name":"Editor","children":[
         {"$GMRUILayer":"v1","%Name":"TLPanelDD","alignItems":2,"children":[
-            {"$GMRFlexPanel":"","%Name":"FlexPanel","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":3,"value":64.0,},"justifyContent":1,"name":"FlexPanel","nodeColour":4282970797,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":64.0,},},
             {"$GMRInstance":"v2","%Name":"inst_1FE37214","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1FE37214","objectId":{"name":"oEditorDropdownGUI","path":"objects/oEditorDropdownGUI/oEditorDropdownGUI.yy",},"properties":[
                 {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"Text","path":"objects/oButton/oButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"File...",},
                 {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oEditorDropdownGUI","path":"objects/oEditorDropdownGUI/oEditorDropdownGUI.yy",},"propertyId":{"name":"items","path":"objects/oEditorDropdownGUI/oEditorDropdownGUI.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[[\"New Level\", game_end], [\"Save Level\", game_end] ,[\"Load Level\", game_end]]",},
@@ -29,7 +28,11 @@
       ],"locked":false,"name":"GameGUI","nodeColour":4282970826,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
     {"$GMRUIFolder":"","%Name":"MainMenu","children":[
         {"$GMRUILayer":"v1","%Name":"MainMenu_Buttons","alignItems":2,"children":[
-            {"$GMRFlexPanel":"","%Name":"Buttons","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"Buttons","nodeColour":4284893426,"positionLeft":{"unit":1,"value":0.0,},"positionTop":{"unit":1,"value":0.0,},"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
+            {"$GMRFlexPanel":"","%Name":"Buttons","alignItems":2,"children":[
+                {"$GMRInstance":"v2","%Name":"inst_5C19CFA1","colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C19CFA1","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"properties":[
+                    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"Button_Release","path":"objects/oButton/oButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"menu_editor_start",},
+                  ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":683.0,"y":384.0,},
+              ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"Buttons","nodeColour":4284893426,"positionLeft":{"unit":1,"value":0.0,},"positionTop":{"unit":1,"value":0.0,},"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":100.0,},},
           ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"MainMenu_Buttons","nodeColour":4294068425,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
       ],"locked":false,"name":"MainMenu","nodeColour":4282935026,"resourceType":"GMRUIFolder","resourceVersion":"2.0","visible":true,},
   ],

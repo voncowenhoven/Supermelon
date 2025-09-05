@@ -110,6 +110,7 @@
     {"id":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"parBlood","path":"particles/parBlood/parBlood.yy",},},
+    {"id":{"name":"rEditor","path":"rooms/rEditor/rEditor.yy",},},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
     {"id":{"name":"rLevel_1","path":"rooms/rLevel_1/rLevel_1.yy",},},
     {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
@@ -157,6 +158,7 @@
     {"roomId":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
     {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
     {"roomId":{"name":"rLevel_1","path":"rooms/rLevel_1/rLevel_1.yy",},},
+    {"roomId":{"name":"rEditor","path":"rooms/rEditor/rEditor.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

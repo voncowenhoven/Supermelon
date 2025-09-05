@@ -16,10 +16,7 @@
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRTileLayer":"","%Name":"Tiles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":21,"SerialiseWidth":22,"TileCompressedData":[
-          -287,-2147483648,-5,1,-39,-2147483648,2,0,1,-3,0,-16,-2147483648,-8,0,-14,-2147483648,-11,0,-12,-2147483648,
-          -7,0,-18,-2147483648,-3,0,-37,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tDummy","path":"tilesets/tDummy/tDummy.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":21,"SerialiseWidth":22,"TileCompressedData":[-462,0,],"TileDataFormat":1,},"tilesetId":{"name":"tDummy","path":"tilesets/tDummy/tDummy.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_27EDF38A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27EDF38A","objectId":{"name":"oPlayerSpawner","path":"objects/oPlayerSpawner/oPlayerSpawner.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},"propertyId":{"name":"type","path":"objects/oSpawner/oSpawner.yy",},"resource":{"name":"oPlayerProtagonist","path":"objects/oPlayerProtagonist/oPlayerProtagonist.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"oPlayerProtagonist",},

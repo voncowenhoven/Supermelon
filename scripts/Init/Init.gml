@@ -24,5 +24,6 @@ function supermelon_init() {
 	
 	game_set_speed(60, gamespeed_fps);
 	
+        playstate_change(PlayState.MAINMENU);
 	room_goto(rMainMenu);
 }

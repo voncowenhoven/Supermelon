@@ -1,4 +1,5 @@
 #region Editor Controls
+
 if (keyboard_check_pressed(ord("E"))) {
 	tileIndexCurrent = tileIndexMin;
 }
@@ -41,17 +42,6 @@ if (keyboard_check_pressed(ord("R"))) {
 		return;
 	}
 }
-
-if (keyboard_check_pressed(ord("F"))) {
-	editor_tile_flip();
-}
-
-if (keyboard_check_pressed(ord("T"))) {
-	editor_tile_mirror();
-}
-
-
-
 
 if (mouse_wheel_up()) {
 	brushSize += 1;
