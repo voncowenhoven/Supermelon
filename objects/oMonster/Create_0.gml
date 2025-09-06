@@ -27,6 +27,7 @@ function monster_look_for_target() {
 			continue;
 		}
 
+		chaseRadius = 1000;
 		target = mob;
 		ds_list_destroy(targets);
 		return target;

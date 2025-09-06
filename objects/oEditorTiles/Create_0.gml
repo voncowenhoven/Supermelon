@@ -81,3 +81,13 @@ function editor_tile_mirror() {
 	data = tile_set_mirror(data, boolean);
 	tilemap_set(mapID, data, mx, my);
 }
+
+// Make the tileset picker
+var panel = instance_create_layer(room_width / 2, room_height / 2, "Instances", oEditorPanel);
+var img = instance_create_layer(panel.x, panel.y, "Instances", test);
+
+img.depth = panel.depth - 1;
+img.sprite_index = tilesetSpr;
+panel.image_xscale = img.image_xscale * 2.6;
+panel.image_yscale = img.image_yscale * 2;
+

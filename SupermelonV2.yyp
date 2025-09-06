@@ -109,6 +109,7 @@
     {"id":{"name":"oPlayerSpawner","path":"objects/oPlayerSpawner/oPlayerSpawner.yy",},},
     {"id":{"name":"oSpawner","path":"objects/oSpawner/oSpawner.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
+    {"id":{"name":"test","path":"objects/test/test.yy",},},
     {"id":{"name":"parBlood","path":"particles/parBlood/parBlood.yy",},},
     {"id":{"name":"rEditor","path":"rooms/rEditor/rEditor.yy",},},
     {"id":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},

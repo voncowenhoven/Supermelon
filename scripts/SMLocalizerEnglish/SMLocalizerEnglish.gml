@@ -12,7 +12,7 @@ global.SMLocEnglish = {
 	"players.supermelon.name" : "John Supermelon",
 	"players.slinger.name" : "Isabelle",
 	
-	"players.protagonist_attack0" : "Excalifruit",
+	"players.protagonist_attack0" : "Johnvolvers",
 	"players.health" : "Health",
 	#endregion
 	

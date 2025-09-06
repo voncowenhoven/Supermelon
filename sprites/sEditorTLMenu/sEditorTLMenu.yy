@@ -42,7 +42,7 @@
     ],
     "top":32,
   },
-  "origin":1,
+  "origin":9,
   "parent":{
     "name":"Editor",
     "path":"folders/Sprites/Editor.yy",
@@ -97,7 +97,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":64,
-    "yorigin":0,
+    "yorigin":42,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

@@ -28,6 +28,7 @@ function PlayerProtagonist() : Player(125, 200, ArmorClass.GOOD, MobID.PROTAG, 0
 																		function (_owner) {
 																			attack_projectile_twoguns(_owner, 1, infinity, _owner.direction, 21, 8);
 																		});
+	loadout[1] = "test";
 																										
 }
 
