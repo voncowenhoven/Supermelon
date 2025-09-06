@@ -1,5 +1,3 @@
-var dmg = damage;
-
 // Don't hit yourself, dumbdumb
 if (owner == other.id) {
 	exit;
@@ -7,9 +5,13 @@ if (owner == other.id) {
 
 with (other) {
 	if (invulnTimer <= 0) {
-		mob_damage(self, dmg);
+		mob_damage(self, other.damage);
 		invulnTimer = 20;
-		state = StateKnockback(other.owner);
+		if (irandom_range(0, 100) < attrs.painChance) {
+			state = StateKnockback(other.owner, other.damage);
+		}
 		instance_destroy(other);
 	}
 }     
+
+instance_destroy();

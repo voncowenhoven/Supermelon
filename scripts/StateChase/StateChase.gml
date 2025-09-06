@@ -5,8 +5,9 @@ function StateChase(t) {
         target : t,
         update: function(self, owner) {
 			with (owner) {
-				mp_potential_settings(45, 5, 10, false);
-				mp_potential_step_object(target.x, target.y, attrs.maxSp, oWall);
+				direction = round(point_direction(x, y, target.x, target.y) / 45) * 45;
+				
+				move.spdDir(attrs.maxSp, direction);
 			}
         }
     }

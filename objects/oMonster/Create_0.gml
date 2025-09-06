@@ -5,6 +5,8 @@ chaseRadius = 300;
 state = StateLookForPlayers();
 sleepTimer = 50;
 
+move = use_tdmc();
+
 /// @desc Searches Mobs around itself and returns a target if it finds one
 function monster_look_for_target() {
 

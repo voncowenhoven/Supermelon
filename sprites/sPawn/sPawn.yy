@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"sPawn",
-  "bboxMode":2,
+  "bboxMode":1,
   "bbox_bottom":121,
   "bbox_left":0,
   "bbox_right":69,
-  "bbox_top":34,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,

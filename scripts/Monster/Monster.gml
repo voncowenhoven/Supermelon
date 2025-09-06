@@ -5,9 +5,7 @@
 /// @arg {Real} _armorClass The armor class tier of this monster (see the ArmorClass enum)
 /// @arg {Real} _mobId The Mob identifier (see the Mob enum)
 /// @arg {Real} _team The team this monster is on (see the Team enum)
-/// @arg {Real} _xpValue The XP this monster is worth on kill.
-function Monster(_maxHp, _maxSp, _armorClass, _mobId, _team, _xpValue) : Mob(_maxHp, _maxSp, _armorClass, _mobId, _team) constructor {
-	xpValue = _xpValue;
+function Monster(_maxHp, _maxSp, _armorClass, _mobId, _team, _painChance, _mass) : Mob(_maxHp, _maxSp, _armorClass, _mobId, _team, _painChance, _mass) constructor {
 }
 
 function monster_make_from_type(type) {
@@ -23,7 +21,7 @@ function monster_make_from_type(type) {
 }
 
 
-function Pawn() : Monster(10, 100, ArmorClass.NONE, MobID.PAWN, Team.MONSTERS, 20) constructor {
+function Pawn() : Monster(10, 100, ArmorClass.NONE, MobID.PAWN, Team.MONSTERS, 80, 8) constructor {
 	flags[0] = Flags.M_HASMELEE;
 	
 	loadout[0] = new Attack(loc_getstring("monsters.attack0"),   // Name

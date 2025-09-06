@@ -1,4 +1,4 @@
-function Mob(_maxHp, _maxSp, _armorClass, _mobId, _team) constructor {
+function Mob(_maxHp, _maxSp, _armorClass, _mobId, _team, _painChance, _mass) constructor {
 	maxHp = _maxHp;
 	hp = maxHp;
 	maxSp = _maxSp * global.DT;
@@ -7,6 +7,8 @@ function Mob(_maxHp, _maxSp, _armorClass, _mobId, _team) constructor {
 	loadout = array_create(3);
 	flags = array_create(4);
 	team = _team;
+	painChance = _painChance;
+	mass = _mass;
 }
 
 // 
