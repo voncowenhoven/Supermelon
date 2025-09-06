@@ -1,7 +1,5 @@
 event_inherited();
 
-show_debug_message(direction);
-
 var key_left = keyboard_check(vk_left);
 var key_right = keyboard_check(vk_right);
 var key_up = keyboard_check(vk_up);

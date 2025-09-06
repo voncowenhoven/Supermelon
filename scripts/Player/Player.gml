@@ -22,14 +22,13 @@ function PlayerProtagonist() : Player(125, 200, ArmorClass.GOOD, MobID.PROTAG, 0
 	//															  _owner,   // Caller
 	//															  5,        // Damage
 	//															  0.15			// Lifetime (seconds) 
-	//															  );}); 		
-																  
-	loadout[0] = new Attack(loc_getstring("players.protagonist_attack0"),   // Name
-							0.7, // Cooldown (seconds)
-							
-							// Attack
-							function(_owner) { attack_projectile_generic(_owner, 5, infinity, _owner.direction, 8
-																  );}); 								
+	//															  );}); 	
+        
+	loadout[0] = new Attack(loc_getstring("players.protagonist_attack0"), 0.09,
+																		function (_owner) {
+																			attack_projectile_twoguns(_owner, 1, infinity, _owner.direction, 21, 8);
+																		}
+																			)							
 }
 
 function player_make_from_type(type) {

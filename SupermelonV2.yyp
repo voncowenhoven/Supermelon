@@ -125,7 +125,7 @@
     {"id":{"name":"NotificationSystem","path":"scripts/NotificationSystem/NotificationSystem.yy",},},
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},},
     {"id":{"name":"PlayState","path":"scripts/PlayState/PlayState.yy",},},
-    {"id":{"name":"Projectile","path":"scripts/Projectile/Projectile.yy",},},
+    {"id":{"name":"ProjectileAttacks","path":"scripts/ProjectileAttacks/ProjectileAttacks.yy",},},
     {"id":{"name":"SMLocalizerEnglish","path":"scripts/SMLocalizerEnglish/SMLocalizerEnglish.yy",},},
     {"id":{"name":"SMLocalizerRedneck","path":"scripts/SMLocalizerRedneck/SMLocalizerRedneck.yy",},},
     {"id":{"name":"StateChase","path":"scripts/StateChase/StateChase.yy",},},
