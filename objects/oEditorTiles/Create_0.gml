@@ -1,4 +1,5 @@
 #macro TILE_SIZE 64
+
 tilemap = layer_tilemap_get_id("Tiles");
 
 tileset = tDummy;

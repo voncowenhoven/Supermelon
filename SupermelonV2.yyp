@@ -157,8 +157,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rInit","path":"rooms/rInit/rInit.yy",},},
     {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
-    {"roomId":{"name":"rLevel_1","path":"rooms/rLevel_1/rLevel_1.yy",},},
     {"roomId":{"name":"rEditor","path":"rooms/rEditor/rEditor.yy",},},
+    {"roomId":{"name":"rLevel_1","path":"rooms/rLevel_1/rLevel_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
