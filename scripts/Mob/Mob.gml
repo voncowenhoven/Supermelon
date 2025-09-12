@@ -18,7 +18,8 @@ enum MobID {
 	PROTAG,
 	ISABELLE,
 	FLUTTERCHAN,
-	PAWN
+	PAWN,
+	ALIENGRUNT
 }
 
 enum Team {
@@ -40,8 +41,7 @@ enum ArmorClass {
 
 enum Flags {
 	M_HASMELEE = 100,
-	
-	P_DONT_EXPIRE_ON_HIT = 200,
+	M_HASPROJECTILE = 101,
 }
 
 // mob functions

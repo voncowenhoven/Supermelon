@@ -12,7 +12,6 @@ function attack_projectile_generic(_owner, _damage, _lifetime, _dir, _maxSp) {
 		});
 }
 
-
 function attack_projectile_twoguns(_owner, _damage, _lifetime, _dir, _maxSp, _offset = 8) {
 		static numShots = 0;
 		

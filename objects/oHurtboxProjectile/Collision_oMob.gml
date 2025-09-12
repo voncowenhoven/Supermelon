@@ -6,7 +6,7 @@ if (owner == other.id) {
 with (other) {
 	if (invulnTimer <= 0) {
 		mob_damage(self, other.damage);
-		invulnTimer = 20;
+		invulnTimer = 12;
 		if (irandom_range(0, 100) < attrs.painChance) {
 			state = StateKnockback(other.owner, other.damage);
 		}

@@ -1,5 +1,7 @@
 event_inherited();
 
+monster_make_from_type(type, self);
+
 target = noone;
 chaseRadius = 300;
 state = StateLookForPlayers();

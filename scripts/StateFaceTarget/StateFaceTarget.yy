@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"StateFaceTarget",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"StateFaceTarget",
+  "parent":{
+    "name":"Monster",
+    "path":"folders/Scripts/States/Monster.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

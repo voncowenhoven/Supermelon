@@ -83,11 +83,6 @@ function editor_tile_mirror() {
 }
 
 // Make the tileset picker
-var panel = instance_create_layer(room_width / 2, room_height / 2, "Instances", oEditorPanel);
-var img = instance_create_layer(panel.x, panel.y, "Instances", test);
+var panel = instance_create_layer(room_width / 2, room_height / 2, "Instances", oEditorPanelTiles, {owner : other});
 
-img.depth = panel.depth - 1;
-img.sprite_index = tilesetSpr;
-panel.image_xscale = img.image_xscale * 2.6;
-panel.image_yscale = img.image_yscale * 2;
 

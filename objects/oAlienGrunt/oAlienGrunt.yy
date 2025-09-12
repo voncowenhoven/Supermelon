@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"oPawnWhite",
+  "%Name":"oAlienGrunt",
   "eventList":[],
   "managed":true,
-  "name":"oPawnWhite",
+  "name":"oAlienGrunt",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMonster","path":"objects/oMonster/oMonster.yy",},"propertyId":{"name":"type","path":"objects/oMonster/oMonster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"oPawnWhite",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oMonster","path":"objects/oMonster/oMonster.yy",},"propertyId":{"name":"type","path":"objects/oMonster/oMonster.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"oAlienGrunt",},
   ],
   "parent":{
     "name":"Monster",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPawn",
-    "path":"sprites/sPawn/sPawn.yy",
+    "name":"sAlienGrunt",
+    "path":"sprites/sAlienGrunt/sAlienGrunt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

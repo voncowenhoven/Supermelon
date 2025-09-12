@@ -1,6 +1,10 @@
 var mx = (mouse_x div TILE_SIZE) * TILE_SIZE;
 var my = (mouse_y div TILE_SIZE) * TILE_SIZE;
 
+if (mouse_check_button(mb_left)) {
+	exit;
+}
+
 if (tileIndexCurrent != 0) {
     draw_set_color(c_white);
     draw_set_alpha(0.4);

@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"oEditorPanel",
+  "%Name":"oEditorPanelTiles",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEditorPanel",
+  "name":"oEditorPanelTiles",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oGUIElement","path":"objects/oGUIElement/oGUIElement.yy",},"propertyId":{"name":"draggable","path":"objects/oGUIElement/oGUIElement.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oGUIElement","path":"objects/oGUIElement/oGUIElement.yy",},"propertyId":{"name":"draggable","path":"objects/oGUIElement/oGUIElement.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"GUI",
@@ -30,7 +31,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"owner","filters":[],"listItems":[],"multiselect":false,"name":"owner","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":4,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

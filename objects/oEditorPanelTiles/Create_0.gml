@@ -1,0 +1,1 @@
+spr = instance_create_layer(x, y + 50, "Instances", test, {sprite_index : other.owner.tilesetSpr});
