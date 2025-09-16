@@ -9,5 +9,5 @@ for (var i = 0; i < tsInfo.tile_count; i++) {
     var xPos = startX + (i % tilesPerRow) * TILE_SIZE;
 	var yPos = startY + (i div tilesPerRow) * TILE_SIZE;
 	
-	var butt = instance_create_layer(xPos, yPos, "TilePanelButtons", oButton64x64, {image_alpha : 0.3});
+	var butt = instance_create_layer(xPos, yPos, "TilePanelButtons", oButton64x64, {image_alpha : 0.3, buttonId : real(i)});
 }

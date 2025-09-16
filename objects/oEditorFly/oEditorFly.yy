@@ -6,8 +6,8 @@
   "name":"oEditorFly",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Editor",
+    "path":"folders/Objects/Editor.yy",
   },
   "parentObjectId":null,
   "persistent":false,
