@@ -1,13 +1,13 @@
-function StateFaceTarget(t) {
+function StateAttackTarget(t, atSl = 0) {
     return {
         name : "face_target",
         timer : -1,
         target : t,
+		attackSlot : atSl,
         update: function(self, owner) {
-			with (owner) {
-				direction = point_direction(x, y, target.x, target.y);
-				attack_execute(0, self);
-			}
+			 owner.direction = point_direction(owner.x, owner.y, self.target.x, self.target.y);
+
+            attack_execute(self.attackSlot, owner);
         }
     }
 }

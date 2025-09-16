@@ -2,8 +2,8 @@
 function supermelon_init() {
 	
 	global.playstate = PlayState.MAINMENU;
-	global.resWidth = 1366;
-	global.resHeight = 768;
+	global.resWidth = 1920;
+	global.resHeight = 1080;
 	global.localizer = global.SMLocEnglish;
 	
 	window_center();

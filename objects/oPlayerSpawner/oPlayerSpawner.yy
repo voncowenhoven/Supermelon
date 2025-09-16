@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayerSpawner",
-    "path":"sprites/sPlayerSpawner/sPlayerSpawner.yy",
+    "name":"sJohn",
+    "path":"sprites/sJohn/sJohn.yy",
   },
   "spriteMaskId":null,
   "visible":false,

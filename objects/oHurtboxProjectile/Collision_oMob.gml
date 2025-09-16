@@ -3,6 +3,12 @@ if (owner == other.id) {
 	exit;
 }
 
+// Don't hit same species as originator
+if (other.attrs.mobId == owner.attrs.mobId) {
+	instance_destroy();
+	exit;
+}
+
 with (other) {
 	if (invulnTimer <= 0) {
 		mob_damage(self, other.damage);

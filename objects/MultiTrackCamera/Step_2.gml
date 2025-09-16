@@ -155,3 +155,4 @@ var pm = matrix_build_projection_ortho(view_wport[viewport_number] * zoom_factor
 
 camera_set_view_mat(camera,vm);
 camera_set_proj_mat(camera,pm);
+

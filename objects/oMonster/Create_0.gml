@@ -25,7 +25,7 @@ function monster_look_for_target() {
 			continue;
 		}
 		
-		if (collision_line(x, y, mob.x, mob.y, oWall, false, false) != noone) {
+		if (collision_line(x, y, mob.x, mob.y, layer_tilemap_get_id("Tiles"), false, false) != noone) {
 			continue;
 		}
 

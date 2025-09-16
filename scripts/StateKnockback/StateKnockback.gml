@@ -8,11 +8,14 @@ function StateKnockback(_attacker, _damagefromAttack) {
 			owner.hsp = 0;
 			owner.vsp = 0;
 			
-			var dir = point_direction(attacker.x, attacker.y, owner.x, owner.y);
-			var thrust = (dmg * 12.5) / owner.attrs.mass;
-			
-			owner.hsp = lengthdir_x(thrust, dir);
-			owner.vsp = lengthdir_y(thrust, dir);
+			if (instance_exists(attacker)) {
+				var dir = point_direction(attacker.x, attacker.y, owner.x, owner.y);
+				var thrust = (dmg * 12.5) / owner.attrs.mass;
+				
+				owner.hsp = lengthdir_x(thrust, dir);
+				owner.vsp = lengthdir_y(thrust, dir);
+				
+			} 
 			
 			self.timer--;
 			

@@ -15,7 +15,7 @@ function StateChase(t) {
 			
 			if (timer < 0) and (array_contains(owner.attrs.flags, Flags.M_HASPROJECTILE)) {
 				with (owner) {
-					state = StateFaceTarget(target);
+					state = StateAttackTarget(target, 0);
 				}
 			}
         }
