@@ -1,13 +1,29 @@
-spr = instance_create_layer(x, y + 50, "TilePanelUpper", test, {sprite_index : other.owner.tilesetSpr});
 tsInfo = owner.tilesetInfo;
-
-var startX = spr.x - 186;
-var startY = spr.y - 57;
-var tilesPerRow = sprite_get_width(spr.sprite_index) / TILE_SIZE;
-
+tilesPerPage = 83;
+tilesPerRow = 28;
+page = 0;
+image_xscale = 14;
+startX = bbox_left - 32;
+startY = y;
+// Tile buttons
 for (var i = 0; i < tsInfo.tile_count; i++) {
-    var xPos = startX + (i % tilesPerRow) * TILE_SIZE;
+	var xPos = startX + (i % tilesPerRow) * TILE_SIZE;
 	var yPos = startY + (i div tilesPerRow) * TILE_SIZE;
+
+	var butt = instance_create_layer(xPos, yPos, "TilePanel", oButton64x64, {image_alpha : 0.1, buttonId : i});
 	
-	var butt = instance_create_layer(xPos, yPos, "TilePanelButtons", oButton64x64, {image_alpha : 0.3, buttonId : real(i)});
+	if (butt.buttonId == ERASER_ID) instance_destroy(butt);
+	
+	if (i >= tilesPerPage) {
+		exit;
+	}
 }
+
+/*
+	What is a "page?"
+	Page 1 is tile IDs 0-84
+	Page 2 is tile IDs 85-168...
+	
+	
+
+*/

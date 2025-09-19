@@ -8,8 +8,8 @@
   "name":"oHurtboxMelee",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Hurtbox",
+    "path":"folders/Objects/Hurtbox.yy",
   },
   "parentObjectId":{
     "name":"oHurtbox",

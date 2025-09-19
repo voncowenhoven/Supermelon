@@ -5,5 +5,5 @@ function editor_create_new_editor(editor) {
 }
 
 function editor_init() {
-        room_goto(rEditor);
+	room_goto(rEditor);
 }

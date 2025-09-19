@@ -1,4 +1,5 @@
 #macro TILE_SIZE 64
+#macro ERASER_ID 0
 
 tilemap = layer_tilemap_get_id("Tiles");
 
@@ -83,6 +84,6 @@ function editor_tile_mirror() {
 }
 
 // Make the tileset picker
-var panel = instance_create_layer(1656, 100, "TilePanel", oEditorPanelTiles, {owner : other});
+var panel = instance_create_layer(global.resWidth / 2, (global.resHeight / 2) - 300, "TilePanel", oEditorPanelTiles, {owner : other});
 
 

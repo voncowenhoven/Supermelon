@@ -8,13 +8,17 @@ if (keyboard_check_pressed(ord("E"))) {
 	Rotate the tile from 0-360 degrees.
 	This works by getting the tile at the cursor and then determining the transformations
 	that have occured on it. It then does additional transformations to symbolically rotate
-	the tile 360 degrees.
-	
+	the tile 360 degrees. Note that this assumes that tiles always start facing upwards.
+*/
+#region Pointless whining	
+/*
 	It's very messy and basically impossible to follow. I hate "lol this code is terrible"-type comments
 	but I will make an exception here because look at it. I pray to the One True Almighty God, the 
 	God of my ancestors, the one who delivered His people from Egypt, that I never have to debug this.
 
 */
+#endregion
+
 if (keyboard_check_pressed(ord("R"))) {
 	var data = tilemap_get_at_pixel(tilemap, mouse_x, mouse_y);
 	
