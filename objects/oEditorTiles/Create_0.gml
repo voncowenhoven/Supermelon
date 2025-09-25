@@ -84,6 +84,6 @@ function editor_tile_mirror() {
 }
 
 // Make the tileset picker
-var panel = instance_create_layer(global.resWidth / 2, (global.resHeight / 2) - 300, "TilePanel", oEditorPanelTiles, {owner : other});
+panel = instance_create_layer(global.resWidth / 2, (global.resHeight / 2) - 300, "TilePanel", oEditorPanelTiles, {owner : other});
 
 

@@ -17,6 +17,14 @@
 #macro ZOOM_SMOOTHING 0.2 // how quickly the camera zooms in or out, 1 = immediate, 0 = never. 
 #macro CAMERA_BORDER 100 //padding around tracked objects
 
+// WHY WAS THIS IN ROOM START
+view_enabled = true;
+view_visible[0] = true;
+view_wport[0] = global.resWidth;
+view_hport[0] = global.resHeight;
+view_xport[0] = 0;
+view_yport[0] = 0;
+
 viewport_number = 0; // assuming view_port 0 as a default, change this if the camera runs on a different view_port
 
 camera = camera_create();
@@ -116,4 +124,3 @@ if(is_array(_object_or_instance_or_array)) {
 function camera_stop_tracking_all() {
 	to_track = array_create(0);	
 }
-

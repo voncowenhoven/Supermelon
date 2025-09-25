@@ -43,6 +43,7 @@ function playstate_change(state) {
                                 toggle_layer_group(GAME_LAYERS, false);
                 
                                 toggle_layer_group(MENU_LAYERS, true);
+								audio_stop_all();
                 
                                 global.playstate = PlayState.MAINMENU;
                         break;

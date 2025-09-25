@@ -34,7 +34,7 @@ function Pawn() : Monster(10, 100, ArmorClass.NONE, MobID.PAWN, Team.MONSTERS, 8
 }
 
 function AlienGrunt() : Monster(25, 100, ArmorClass.NONE, MobID.ALIENGRUNT, Team.MONSTERS, 60, 24) constructor {
-	flags[0] = Flags.M_HASPROJECTILE;
+	flags[0] = Flags.M_HASPROJ;
 	
 	loadout[0] = new Attack(loc_getstring("monsters.attack0"),   // Name
 							1, // Cooldown (seconds)

@@ -1,5 +1,10 @@
 event_inherited();
 
+// Player-specific hack to force the death state
+if (attrs.hp <= 0) {
+	state = StateDead();
+}
+
 var key_left = keyboard_check(ord("A"));
 var key_right = keyboard_check(ord("D"));
 var key_up = keyboard_check(ord("W"));
@@ -23,20 +28,10 @@ if (moveV != 0) {
 	state = StateMove();
 } 
 
+
 if (attack) {
     attack_execute(selectedSlot, self);
 }
-
-// TODO
-//if (nextWeapon) {
-//	if (attrs.loadout[selectedSlot + 1] != 0) {
-		
-//		if (selectedSlot > array_length(attrs.loadout)) {
-//			selectedSlot = 0;
-//		}
-//		selectedSlot++;
-//	}
-//}
 
 stats.playerHp = attrs.hp;
 stats.playerSelectedWeapon = attrs.loadout[selectedSlot].name;

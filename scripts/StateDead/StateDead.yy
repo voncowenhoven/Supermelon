@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"StateDead",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"StateDead",
+  "parent":{
+    "name":"States",
+    "path":"folders/Scripts/States.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

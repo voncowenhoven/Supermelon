@@ -13,6 +13,19 @@ function level_goto(level) {
 	mapNum = level.mapNum;
 	world = level.world;
 	room_goto(levelRoom);
+	level_init();
 	
 	playstate_change(PlayState.GAME);
+}
+
+function level_exit() {
+	print("[WARN]: Not implemented.");
+}
+
+function level_init() {
+	if (music == undefined) {
+		return;
+	}
+	
+	audio_play_sound(music, 100, infinity);
 }

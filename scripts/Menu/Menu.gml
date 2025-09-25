@@ -19,8 +19,7 @@ function menu_about_soup() {
 function menu_newgame() {
 	MapManager.level_goto(global.mapinfo[0]);
 }
-        
-// TODO 
+       
 function menu_editor_start() {
-        editor_init();
+	room_goto(rEditor);
 }

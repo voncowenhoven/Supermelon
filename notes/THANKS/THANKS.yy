@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"THANKS",
+  "name":"THANKS",
+  "parent":{
+    "name":"Supermelon",
+    "path":"Supermelon.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

@@ -13,7 +13,7 @@ function StateChase(t) {
 			
 			timer -= 1 * global.DT;
 			
-			if (timer < 0) and (array_contains(owner.attrs.flags, Flags.M_HASPROJECTILE)) {
+			if (timer < 0) and (array_contains(owner.attrs.flags, Flags.M_HASPROJ)) {
 				with (owner) {
 					state = StateAttackTarget(target, 0);
 				}

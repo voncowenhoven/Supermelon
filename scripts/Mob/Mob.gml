@@ -40,8 +40,9 @@ enum ArmorClass {
 }
 
 enum Flags {
-	M_HASMELEE = 100,
-	M_HASPROJECTILE = 101,
+	M_HASMELEE,
+	M_HASPROJ,
+	M_DEAD
 }
 
 // mob functions
@@ -53,7 +54,7 @@ enum Flags {
 function mob_damage(mob, dmg) {
 	mob.attrs.hp -= dmg;
 	
-	if (mob.attrs.hp < 0) {
+	if (mob.attrs.hp <= 0) {
 		mob_kill(mob);
 	}
 }
@@ -63,13 +64,9 @@ function mob_damage(mob, dmg) {
 /// @arg mob
 function mob_kill(mob) {
 	// TODO: onDeath callback
-	instance_destroy(mob);
+	mob.state = StateDead();
 }
 
-function has_flag(flag) {
-	if (array_contains(attrs.flags, flag)) {
-		return true;
-	}
-	
-	return false;
+function has_flag(mob, flag) {
+	return array_contains(mob.attrs.flags, flag);
 }

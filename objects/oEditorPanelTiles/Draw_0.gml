@@ -1,3 +1,5 @@
+if (global.playstate != PlayState.EDITOR) exit;
+
 draw_self();
 
 // Tiles 

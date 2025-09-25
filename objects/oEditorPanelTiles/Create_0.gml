@@ -6,7 +6,7 @@ image_xscale = 14;
 startX = bbox_left - 32;
 startY = y;
 // Tile buttons
-for (var i = 0; i < tsInfo.tile_count; i++) {
+for (var i = 1; i < tsInfo.tile_count; i++) {
 	var xPos = startX + (i % tilesPerRow) * TILE_SIZE;
 	var yPos = startY + (i div tilesPerRow) * TILE_SIZE;
 

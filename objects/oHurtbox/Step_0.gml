@@ -7,4 +7,3 @@ lifetime -= global.DT;
 if (lifetime < 0) {
 	instance_destroy();
 }
-
