@@ -1,4 +1,6 @@
-if (has_flag(self, Flags.M_DEAD)) exit;
+if (has_flag(self, Flags.M_DEAD)) {
+	exit;
+}
 
 if (invulnTimer > 0) {
 	invulnTimer--;

@@ -45,12 +45,7 @@ enum Flags {
 	M_DEAD
 }
 
-// mob functions
 
-/// @function mob_damage(mob, dmg)
-/// @desc
-/// @arg {Id.Instance} mob
-/// @arg {Real} dmg
 function mob_damage(mob, dmg) {
 	mob.attrs.hp -= dmg;
 	
@@ -59,9 +54,6 @@ function mob_damage(mob, dmg) {
 	}
 }
 
-/// @function mob_kill(mob)
-/// @desc
-/// @arg mob
 function mob_kill(mob) {
 	// TODO: onDeath callback
 	mob.state = StateDead();

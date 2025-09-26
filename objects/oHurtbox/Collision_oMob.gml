@@ -10,13 +10,13 @@ if (other.attrs.mobId == owner.attrs.mobId) {
 }
 
 with (other) {
-	if (has_flag(self, Flags.M_DEAD)) return;
-	
 	if (invulnTimer <= 0) {
 		mob_damage(self, other.damage);
 		invulnTimer = 12;
 		if (irandom_range(0, 100) < attrs.painChance) {
-			state = StateKnockback(other.owner, other.damage);
+			if (attrs.hp >= 0) { // Please Lord let this be the last hack in this game...
+				state = StateKnockback(other.owner, other.damage);
+			}
 		}
 		instance_destroy(other);
 	}

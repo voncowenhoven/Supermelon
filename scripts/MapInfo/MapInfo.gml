@@ -17,7 +17,7 @@ global.mapinfo =
 {
 	name : "Vacation from Hell",
 	next : undefined,
-	music : music1,
+	music : undefined,
 	levelRoom : rLevel_1,
 	mapNum : 1,
 	world : 1

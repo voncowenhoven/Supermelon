@@ -5,6 +5,7 @@ function StateKnockback(_attacker, _damagefromAttack) {
 		attacker : _attacker, 
 		dmg : _damagefromAttack,
 		update : function(self, owner) {
+			
 			owner.hsp = 0;
 			owner.vsp = 0;
 			
