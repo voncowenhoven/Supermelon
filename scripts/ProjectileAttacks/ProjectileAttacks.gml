@@ -1,36 +1,15 @@
 // feather ignore all
 
-function attack_projectile_generic(_owner, _damage, _lifetime, _dir, _maxSp, _offset = 60) {
-	var offset = _offset;
+function attack_projectile_generic(_owner, _damage, _lifetime, _dir, _maxSp) {
 		
 	var proj1 = instance_create_layer(_owner.x, _owner.y, _owner.layer, oHurtboxProjectile, {
 		owner : _owner.id,
 		damage : _damage,
 		lifetime : _lifetime,
-		dir : _dir + offset,
-		maxSp : _maxSp,
-		xSize : 0.5,
-		ySize : 0.5,
-		});
-		
-	var proj2 = instance_create_layer(_owner.x, _owner.y, _owner.layer, oHurtboxProjectile, {
-		owner : _owner.id,
-		damage : _damage,
-		lifetime : _lifetime,
-		dir : _dir - offset,
-		maxSp : _maxSp,
-		xSize : 0.5,
-		ySize : 0.5,
-		});
-		
-	var proj3 = instance_create_layer(_owner.x, _owner.y, _owner.layer, oHurtboxProjectile, {
-		owner : _owner.id,
-		damage : _damage,
-		lifetime : _lifetime,
 		dir : _dir,
 		maxSp : _maxSp,
-		xSize : 0.5,
-		ySize : 0.5,
+		xSize : 0.8,
+		ySize : 0.8,
 		});
 }
 

@@ -1,4 +1,4 @@
-function StateAttackTarget(t, atSl = 0) {
+function StateFaceTarget(t, atSl) {
     return {
         name : "face_target",
         timer : -1,
@@ -7,7 +7,11 @@ function StateAttackTarget(t, atSl = 0) {
         update: function(self, owner) {
 			 owner.direction = point_direction(owner.x, owner.y, self.target.x, self.target.y);
 
-            attack_execute(self.attackSlot, owner);
+			if (has_flag(target, Flags.M_DEAD)) {
+				owner.state = StateIdle();	
+			}
+			
+				owner.state = StateAttackTarget(target, attackSlot);
         }
     }
 }

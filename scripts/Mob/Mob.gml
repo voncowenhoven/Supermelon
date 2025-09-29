@@ -59,6 +59,13 @@ function mob_kill(mob) {
 	mob.state = StateDead();
 }
 
+
+/**
+ * Returns whether or not the specified mob has a given Flag.
+ * @param {Id.Instance} mob 
+ * @param {Enum} flag 
+ * @returns {bool} 
+ */
 function has_flag(mob, flag) {
 	return array_contains(mob.attrs.flags, flag);
 }

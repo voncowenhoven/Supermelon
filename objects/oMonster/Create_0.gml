@@ -3,7 +3,7 @@ event_inherited();
 monster_make_from_type(type, self);
 
 target = noone;
-chaseRadius = 300;
+chaseRadius = 1500;
 state = StateLookForPlayers();
 sleepTimer = 50;
 
@@ -28,8 +28,12 @@ function monster_look_for_target() {
 		if (collision_line(x, y, mob.x, mob.y, layer_tilemap_get_id("Tiles"), false, false) != noone) {
 			continue;
 		}
+		
+		if (has_flag(mob, Flags.M_DEAD)) {
+			continue;
+		}
 
-		chaseRadius = 1000;
+		chaseRadius = 2000;
 		target = mob;
 		ds_list_destroy(targets);
 		return target;

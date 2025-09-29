@@ -135,6 +135,7 @@
     {"id":{"name":"ProjectileAttacks","path":"scripts/ProjectileAttacks/ProjectileAttacks.yy",},},
     {"id":{"name":"SMLocalizerEnglish","path":"scripts/SMLocalizerEnglish/SMLocalizerEnglish.yy",},},
     {"id":{"name":"SMLocalizerRedneck","path":"scripts/SMLocalizerRedneck/SMLocalizerRedneck.yy",},},
+    {"id":{"name":"StateAttackTarget","path":"scripts/StateAttackTarget/StateAttackTarget.yy",},},
     {"id":{"name":"StateChase","path":"scripts/StateChase/StateChase.yy",},},
     {"id":{"name":"StateDead","path":"scripts/StateDead/StateDead.yy",},},
     {"id":{"name":"StateFaceTarget","path":"scripts/StateFaceTarget/StateFaceTarget.yy",},},

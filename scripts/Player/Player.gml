@@ -12,7 +12,7 @@ function Player(_maxHp, _maxSp, _armorClass, _mobId, _level, _team, _painChance,
 
 /// @function PlayerProtagonist()
 /// @desc Represents Vannamelon the Protagonist. 
-function PlayerProtagonist() : Player(10, 320, ArmorClass.GOOD, MobID.PROTAG, 0, Team.PLAYERS, 100, 10) constructor {
+function PlayerProtagonist() : Player(1, 320, ArmorClass.GOOD, MobID.PROTAG, 0, Team.PLAYERS, 100, 10) constructor {
 
 	//loadout[0] = new Attack(loc_getstring("players.protagonist_attack0"),   // Name
 	//						0.25, // Cooldown (seconds)
