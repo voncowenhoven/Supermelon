@@ -9,6 +9,9 @@ function StateAttackTarget(t, atSl) {
 			timer -= global.DT;
 			
 			if (timer < 0) {
+				
+				owner.direction = point_direction(owner.x, owner.y, target.x, target.y);
+				
 				attack_execute(0, owner);
 				owner.state = StateChase(target);
 			}

@@ -45,6 +45,6 @@ function AlienGrunt() : Monster(25, 100, ArmorClass.NONE, MobID.ALIENGRUNT, Team
 																  5,                // Damage
 																  infinity,         // Lifetime (seconds)
 																  _owner.direction, // Direction
-																  10                // Speed
+																  9                // Speed
 																  );}); 	
 }
